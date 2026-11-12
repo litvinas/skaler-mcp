@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "app.skaler/skaler",
+  "title": "Skaler",
+  "description": "Creative analytics for Meta ads: winning ads, AI tags, competitor ad intel and ad launching.",
+  "version": "0.3.0",
+  "websiteUrl": "https://skaler.app/mcp",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://skaler.app/api/mcp"
+    }
+  ]
+}

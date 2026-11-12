@@ -1,0 +1,91 @@
+{
+  "identifier": "litvinas-skaler-mcp",
+  "name": "Skaler",
+  "version": "0.3.0",
+  "author": "Skaler",
+  "authorUrl": "https://skaler.app",
+  "cloudEndpoint": "https://skaler.app/api/mcp",
+  "description": "Meta ads creative analytics, competitor ad research and ad launching for Claude, ChatGPT and other MCP clients.",
+  "homepage": "https://skaler.app/mcp",
+  "tags": [
+    "meta-ads",
+    "marketing",
+    "advertising",
+    "analytics",
+    "creative-analytics"
+  ],
+  "tools": [
+    {
+      "name": "get_workspace",
+      "description": "Your plan, ad accounts (always including the demo account), brands and AI-tag categories. Assistants call it first."
+    },
+    {
+      "name": "query_creatives",
+      "description": "Ranked ads with spend, ROAS, CPA, CTR, hook and hold rate, Skaler's four creative scores, AI tags and thumbnails. Filter and group by any of them."
+    },
+    {
+      "name": "get_ai_tag_performance",
+      "description": "Which hooks, angles, personas, formats and offers win in the account, with spend share for each."
+    },
+    {
+      "name": "get_account_summary",
+      "description": "KPIs against the previous period, a daily trend and the top ads. Can return a ready-made Slack or markdown update."
+    },
+    {
+      "name": "get_breakdowns",
+      "description": "Spend or ROAS split by platform, placement, format, country, age and gender."
+    },
+    {
+      "name": "get_ad_insights",
+      "description": "The transcript and AI analysis already created in Skaler for one ad."
+    },
+    {
+      "name": "list_reports",
+      "description": "Your saved Skaler reports (sample reports on the demo account)."
+    },
+    {
+      "name": "get_report",
+      "description": "Runs one of your saved reports with live data."
+    },
+    {
+      "name": "search_winning_ads",
+      "description": "Finds winning ads in any niche from Skaler's ad library, with run time and scaling signals."
+    },
+    {
+      "name": "spy_on_brand",
+      "description": "What one brand is running and scaling right now: active ads, formats, landing pages and longest runners."
+    },
+    {
+      "name": "analyze_ad_creative",
+      "description": "Breaks down one ad: hook, angle, structure, copy and why it likely works."
+    },
+    {
+      "name": "list_tracked_brands",
+      "description": "The brands you follow in Skaler's Brand Spy."
+    },
+    {
+      "name": "get_launch_options",
+      "description": "Your campaigns (CBO or ABO), ad sets, Pages, Instagram accounts and call-to-action types."
+    },
+    {
+      "name": "create_campaign",
+      "description": "A new, empty Meta campaign with any objective, ABO or CBO."
+    },
+    {
+      "name": "create_launch_draft",
+      "description": "Builds a draft in Skaler's launcher from creative links: which ad set to copy, copy, link, budget and schedule. Returns a summary and a link to review it."
+    },
+    {
+      "name": "launch_draft",
+      "description": "Uploads the creatives and creates the ad sets and ads from an approved draft. Needs the ad count and ad set name from the draft summary."
+    },
+    {
+      "name": "get_launch_status",
+      "description": "What a launch created, with Meta ad and ad set IDs, and why any ad failed."
+    },
+    {
+      "name": "send_feedback",
+      "description": "Sends a bug report or idea to the Skaler team when you ask your assistant to."
+    }
+  ]
+}
